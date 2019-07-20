@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>滑动门练习</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		body {
+			background: url(img/wx.jpg) repeat-x;
+		}
+		.nav li {
+			list-style: none;
+			float: left;
+		}
+		.nav a {
+			display: inline-block;
+			height: 33px;
+			background: url(img/to.png) no-repeat left;
+			text-decoration: none;
+			color: #fff; text-align: center; line-height: 33px;
+			padding-left: 15px;
+			margin: 15px;
+		}
+		.nav span {
+			display: inline-block;
+			height: 33px;
+			background: url(img/to.png) no-repeat right;
+			padding-right: 15px;
+		}
+		.nav a:hover, .nav a:hover span{
+			background-image: url(img/ao.png);
+		}
+	</style>
+</head>
+<body>
+	<ul class="nav">
+		<li>
+			<a href="#">
+				<span>首页</span>
+			</a>
+		</li>
+		<li>
+
+			<a href="#">
+				<span>导航</span>
+			</a>
+		</li>
+		<li>
+
+			<a href="#">
+				<span>啦啦啦啦啦啦啦啦</span>
+			</a>
+		</li>
+	</ul>
+</body>
+</html>
